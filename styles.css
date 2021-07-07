@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    padding: 30px 20px 50px;
+    background-color: red;
+}
+
+.about {
+    padding: 30px 10px;
+    color: white;
+    clear:left;
+    background-color: rgb(138, 3, 3);
+}
+
+.contact, .work{
+    background-color: rgb(57, 125, 214);
+    padding: 10px;
+}
+
+.work {
+    clear: left;
+    padding: 42px 0px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 42px 10px; 
+}
+
+.navlink {
+    list-style: none;
+    margin: 0px 20px;
+    float: left;
+    color: white;
+    font-size: 12pt;
+}
+
+h4 {
+    text-decoration: underline;
+    color: white;
+}
+
+.contact-links {
+    float: left;
+    list-style: none;
+    margin: 10px 30px 10px;
+}
+
+.links {
+    background-color: rgb(57, 125, 214);
+    padding: 50px 250px 50px;
+}
+
+#fb {
+    color: rgb(28, 28, 175);
+}
+
+#git {
+    color: pink;
+}
+
+#twit {
+    color: rgb(134, 9, 9)
+}
+
+#LI {
+    color: rgb(47, 241, 232);
+}
+
+#mail {
+    color: orange;
+}
+
+#call {
+    color: rgb(101, 255, 101);
+}
+
+.work ol li {
+    margin: 50px 20px;
+}
+
+#f2 {
+    float: right;
+}
+
+#f3 {
+    clear: right;
+    float: right;
+}
